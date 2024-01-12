@@ -1,0 +1,23 @@
+all: server client
+
+server: PPS.o serverFunctions.o
+	gcc -o server PPS.o serverFunctions.o 
+
+client: PQC.o clientFunctions.o
+	gcc -o client PQC.o clientFunctions.o
+
+PPS.o: PPS.c PPS.h
+	gcc -c PPS.c
+	
+PQC.o: PQC.c PQC.h
+	gcc -c PQC.c
+	
+serverFunctions.o: serverFunctions.c PPS.h
+	gcc -c serverFunctions.c
+	
+clientFunctions.o: clientFunctions.c PQC.h
+	gcc -c clientFunctions.c
+
+clean:
+	rm -f *.o
+
