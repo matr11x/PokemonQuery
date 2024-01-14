@@ -12,5 +12,8 @@ Submitted source files:
 Top compile and run the program:
 	1. Open the terminal in the directory containing the extracted files.
 	2. Enter: make -f a4_makefile
-	3. Enter: ./server in one termial
-	4. Enter: ./client in another terminal
+	3. Enter: ./server in one terminal
+	4. Enter pokemon.csv when prompted to enter files with pokemon
+	5. Enter: ./client in another terminal
+	6. Start querying!
+	
