@@ -1,15 +1,6 @@
-Name: Shamoun Yousuf
-Student #: 101257000
+Program where you query Pokemon based on their type.
 
-Submitted source files:
-	1. PPS.c
-	2. PPS.c
-	3. serverFunctions.c
-	4. PQC.c
-	5. PQC.h
-	6. clientFunctions.c
-	
-Top compile and run the program:
+To compile and run the program:
 	1. Open the terminal in the directory containing the extracted files.
 	2. Enter: make -f a4_makefile
 	3. Enter: ./server in one terminal
